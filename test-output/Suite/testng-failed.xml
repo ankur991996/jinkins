@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="actress" value="kriti"/>
+    <classes>
+      <class name="org.testng.class1">
+        <methods>
+          <include name="demo1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testng.class1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,1 @@
+java -cp testNg\*;bin; org.testng.TestNG testng.xml
